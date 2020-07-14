@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="home.css"> 
+    <script src="./contact.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav role="navigation">
+        <div class="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="menu">
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="products.html">
+                    <li>Products</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="heading">Contact Us</h1>
+
+    <div id="error_message"></div>
+    <form class="myForm" onSubmit="return validation()">
+        <label class="label--center">Name</label>
+        <input type="text" placeholder="Enter Name Here..." name="name" id="name--position">
+        <label class="label--center">Email</label>
+        <input type="text" placeholder="Enter Email Here..." name="email" id="email--position">
+        <label class="label--center">Comments</label>
+        <textarea rows="4" cols="50" placeholder="Enter comments Here..." id="comments--position"></textarea>
+        <div class="container">
+        <button class="button--item">Submit</button>
+        <input type="reset" class="button--item">
+        </div>
+    </form>
+    
+    
+
+    <footer class="footer">
+        <nav class="footer-links">
+            <a href="home.html">Home</a> |
+            <a href="products.html">Products</a> |
+            <a href="contact.html">Contact</a> |
+        </nav>
+        <figure class="icons">
+            <a href="helpusmakeachange2018@gmail.com" class="fa fa-google"></a>
+            <a href="https://www.facebook.com/profile.php?id=100006826842072&sk=about&section=contact-info&lst=100006826842072%3A100006826842072%3A1585589858" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/channel/UCR__rpmy2U4YQuDC0Bin4aA/videos" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/foster_care_awareness18/" class="fa fa-instagram"></a>
+            </figure>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="Valid CSS!" />
+                </a>
+            </p>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                        alt="Valid CSS!" />
+                    </a>
+                </p>
+    </footer>
+
+
+</body>
+</html>
